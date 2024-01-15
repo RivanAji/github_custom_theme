@@ -1,0 +1,43 @@
+{
+  "name": "github-custom-dark",
+  "displayName": "GitHub Custom Dark",
+  "description": "github theme with customization based on my user experiences prespective!",
+  "version": "0.0.2",
+  "license": "The Unlicense",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "keywords": [
+		"theme",
+		"cool",
+		"dark",
+		"colorized"
+	],
+  "icon": "icon.png",
+  "repository": {
+  "type": "git",
+    "url": "https://github.com/RivanAji/github_custom_theme.git"
+  },
+  "publisher": "RivanAji",
+  "categories": [
+    "Themes"
+  ],
+  "galleryBanner": {
+		"color": "#1f2335",
+		"theme": "dark"
+	},
+  "contributes": {
+    "themes": [
+      {
+        "label": "GitHub custom dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/github custom dark-color-theme.json"
+      },
+      {
+				"label": "GitHub custom night",
+				"uiTheme": "vs-dark",
+				"path": ".themes/github custom night-color-theme.json"
+			}
+    ]
+  }
+}
