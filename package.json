@@ -34,10 +34,10 @@
         "path": "./themes/github custom dark-color-theme.json"
       },
       {
-				"label": "GitHub custom night",
-				"uiTheme": "vs-dark",
-				"path": ".themes/github custom night-color-theme.json"
-			}
+	"label": "GitHub custom night",
+	"uiTheme": "vs-dark",
+	"path": ".themes/github custom night-color-theme.json"
+      }
     ]
   }
 }
